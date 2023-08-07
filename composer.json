@@ -13,8 +13,11 @@
             "email": "franssen.roland@gmail.com"
         }
     ],
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/crabnky/user" }
+    ],
     "require": {
-        "msgphp/user": "^0.15",
+        "msgphp/user": "dev-main as 0.15",
         "symfony/config": "^3.4 || ^4.4 || ^5.0",
         "symfony/dependency-injection": "^3.4 || ^4.4 || ^5.0",
         "symfony/http-kernel": "^3.4 || ^4.4 || ^5.0"
